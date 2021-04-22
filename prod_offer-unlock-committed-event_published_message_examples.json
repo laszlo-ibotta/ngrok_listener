@@ -1,0 +1,374 @@
+1619044139196:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1973",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "cff06a8b-5771-5d30-8a38-3271fe3f62ba",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.157",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "cff06a8b-5771-5d30-8a38-3271fe3f62ba",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"f115ee29-5587-45ba-8acd-d102f349ad87\"},\"eventAt\":{\"millis\":\"1619044110205\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-0b2e77c37fc99fc91\",\"revision\":\"d4da5cd\"},\"offerId\":\"776621\",\"offerGroupId\":\"257466\",\"retailerId\":\"3\",\"customerId\":\"4091682\",\"unlockedAt\":{\"millis\":\"1619044107000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.219Z",
+  "SignatureVersion" : "1",
+  "Signature" : "Lga/c1nYJ/ymO3Q5qSrQkI5VY9HB1CTCO+rnK67lUk/URE2atTYMgQkDWgLlbMDM2zYr3JFyPYgFXfI02DVRRqaaDLCBnmz14GKDt71MmdrAA02/qEBPkxfqn5VNN95kcxXGYfjFfMwPkwJzs7bOD13zzE6w9gz1+zOg1PmDGYFIHZhn9/36p6+W4VjC72ILrCRPnJjSrOyik7mOIXenYvfyImj8mcYu+lU2fzTonKnGGyJ6odSV6ThxAq0o6HQvNhR9g30OAWDOwdb4Pw9QV+7+FPGqaIOCZmD12xwzVluUyoIXf6/4KUsFMw2S5BPnPVW5P2RL91nka8pHdpvBKQ==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"f115ee29-5587-45ba-8acd-d102f349ad87\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-0b2e77c37fc99fc91"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110205\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139208:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1974",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "6e57258f-86cd-5cd5-8849-7d752f83eeff",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.171",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "6e57258f-86cd-5cd5-8849-7d752f83eeff",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"1f86a3df-ad51-4fff-8899-e4f40c643127\"},\"eventAt\":{\"millis\":\"1619044110392\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-0da7272c67adb0bee\",\"revision\":\"d4da5cd\"},\"offerId\":\"772714\",\"offerGroupId\":\"253866\",\"retailerId\":\"4\",\"customerId\":\"27361997\",\"unlockedAt\":{\"millis\":\"1619044110000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.408Z",
+  "SignatureVersion" : "1",
+  "Signature" : "DNsA9wCm0DhkrYEXydw1Z/eHJ6ReD6W9YmopMeGJl2qMHoClMKeF4Y/TrbhbFmT05Igq35+i9NeG00i5LTPfCNDa6IHoed3gNxb/g9a3INyPIoiCWHoPqjt8voM9raUm53s4k1vIFUn2zRVxR9mcvazsuXAkG7TMIzYppUC+aarlIFnhGSpIRFHp2FaiZ3YO2bj28Sv4CQMIv+gi4aVo8l5aJU5MrSn2Oxi53RPAO+c+Yvbh/pw4FCc/ZSsl1D+GpGaD12zITXklmq4mreyOETtP3R/mJJOSw5HkvUbxGoe3VbZxDCHxGJbv2DGwRPooSM8erZji5pQ8nevHPyDlRA==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"1f86a3df-ad51-4fff-8899-e4f40c643127\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-0da7272c67adb0bee"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110392\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139229:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1974",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "4ba8f851-69d3-5c2d-a384-a0abc09da612",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.70",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "4ba8f851-69d3-5c2d-a384-a0abc09da612",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"c1f30ce2-3ce4-443f-bc1f-de81f4b26275\"},\"eventAt\":{\"millis\":\"1619044110734\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-0f5567a580b38d4e2\",\"revision\":\"d4da5cd\"},\"offerId\":\"727815\",\"offerGroupId\":\"241403\",\"retailerId\":\"5\",\"customerId\":\"40273664\",\"unlockedAt\":{\"millis\":\"1619044110000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.742Z",
+  "SignatureVersion" : "1",
+  "Signature" : "rDle8c3RJL8iROSyPOww8chnDPnDCEo+P/zyKdEhUT1daSgPPrZ3oz0YZtevG4ym+qXi5jS3/mAOkj13MjqhY4ZM1Fc2BKvYIbxy0sTJadmQvSYM6OeeIN8mnYMnTU+fb2AAmLn4xiUtbmBqbEC4eyZ+4KyYbUSRqCU+LtbfZ7qAXNre4XI/A8fqWzfGYP5Fwmf9WeTSdK5RfXUD2KOBI/VuC2pYaTSjSfMjS936Ka2DIn8GyGpG3nptgTcbcIbS248yopKGocebCqD5nrvsw8xqQUIFBWcf2HQWLg/BbrRTX3ckOCJ4qGKvzFKZeH+W/RcWUmqhU4j3UA8oK2D/yQ==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"c1f30ce2-3ce4-443f-bc1f-de81f4b26275\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-0f5567a580b38d4e2"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110734\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139250:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1973",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "5692ca13-167e-57cf-aac2-92e9bf308954",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.23",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "5692ca13-167e-57cf-aac2-92e9bf308954",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"619b69c3-dab7-4822-a366-d11f15a5fb2c\"},\"eventAt\":{\"millis\":\"1619044110625\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-01fe8dce39e0a73dc\",\"revision\":\"d4da5cd\"},\"offerId\":\"780236\",\"offerGroupId\":\"257688\",\"retailerId\":\"4\",\"customerId\":\"6413574\",\"unlockedAt\":{\"millis\":\"1619044107000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.649Z",
+  "SignatureVersion" : "1",
+  "Signature" : "D8ymWiD93miNdrimxiZAorstKOinld4fxglSK5odmzJ06j21urFKzildS6K8xAVFMHBxGV2JRycmF9ZBTR4RKEC1IKQMfDo17T03Klijtww/j64c6H/JCPE1lP8E6+ty5Ve3Hge2hQXARS7HJZkufufcigj3SPltCBFInMmn332dyRAGJLECtRfzj5m5DrjrqODAlciyzJbgPcPNbFlS8zsNL4pIxuHOO3W3HXR+TZ0SXx7kolMwjlBPD+wcyoPQSDApPDqZMlvmkTIeZvaaNaQe+eEYTrXYhud5vL0WBzkKvGoEnxg7jwPIF35epluW7UrBrVqiqJ8+0KCYKneNGw==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"619b69c3-dab7-4822-a366-d11f15a5fb2c\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-01fe8dce39e0a73dc"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110625\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139300:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1974",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "c4c6eddc-9a22-5d4d-ada3-b526336c66b5",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.69",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "c4c6eddc-9a22-5d4d-ada3-b526336c66b5",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"710edc5a-1a9c-4a6c-a6b5-6856a2bc0691\"},\"eventAt\":{\"millis\":\"1619044110462\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-0f5567a580b38d4e2\",\"revision\":\"d4da5cd\"},\"offerId\":\"761378\",\"offerGroupId\":\"255046\",\"retailerId\":\"4\",\"customerId\":\"17784952\",\"unlockedAt\":{\"millis\":\"1619044110000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.476Z",
+  "SignatureVersion" : "1",
+  "Signature" : "NR35/u7gFYOlw+tTsDQHHoA23p3CSrTS9z43Awa/1ruvZ8U5j0Vu0HLA9WVd6hL4xvZiuzzQWO2Kr9Ek3n0YMY75VrzXgwW8dDVXCRbAV+jyDhnpbskFdh8OnWE8eaCZbv6tShDUkqUAcsVvKEzyKRTe0OlzKGK4LnLa1CJcwFurSHTCSw1iqk2j+UDkH9z6IGETiwf9ViBWuUo8Em9mbrZaVTWDAJxxlWweVD+2p7ggfkU4J1QlUVU5af6nOzpa87/DHlXBPPGDkSpYHkfZZk2mA0WXxIPN+//OBA9MQSGVfpKvfTNBDL0n4WagAIo4Dkzd079hIbyLyCH/kps3og==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"710edc5a-1a9c-4a6c-a6b5-6856a2bc0691\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-0f5567a580b38d4e2"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110462\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139344:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1973",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "c44291c1-b234-588b-96d9-c93b1b7ac10e",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.171",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "c44291c1-b234-588b-96d9-c93b1b7ac10e",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"be228f34-55ef-4e57-91b4-e213cdbccef2\"},\"eventAt\":{\"millis\":\"1619044110487\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-0b2e77c37fc99fc91\",\"revision\":\"d4da5cd\"},\"offerId\":\"752314\",\"offerGroupId\":\"256374\",\"retailerId\":\"3\",\"customerId\":\"8658202\",\"unlockedAt\":{\"millis\":\"1619044110000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.499Z",
+  "SignatureVersion" : "1",
+  "Signature" : "fFd8MXcr7lZdzl++yR3TdSO8Hbe/Vc92x3bwTOO2XWRzM2b7e/fV/dRBstgOqlHViFSlVIZgFN2rfyDJzJpuOal2Hcb70vcqOoBak3D6KmPqXKrGcpO9q6EJkffzqzO/9Jyt8RcFv1aYG4XLrJIne0RIzuOaRMb7Lyoe4DYQizAapFb8jqP/9XRzrFJuAM3KjzEIm2Sm0g+PKPOazXvppLAH/LvIZu3/wLVuHVKqCabEA9D/daal1WLhwPtbCUkrkW5GKe326JJSUS8ddMt/gC79W3e3/rEu2zZFj9PrNgOwR990FNbTxius6KeuqRJXXKlUQ1B3+ZEWRNEom4z5Pw==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"be228f34-55ef-4e57-91b4-e213cdbccef2\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-0b2e77c37fc99fc91"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110487\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139386:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1974",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "6f69e075-9fd9-5f8c-a56b-b88f3694ed32",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.16",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "6f69e075-9fd9-5f8c-a56b-b88f3694ed32",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"d1637dbd-caf9-430f-b181-63def946c15c\"},\"eventAt\":{\"millis\":\"1619044109946\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-075b8af100dadc57b\",\"revision\":\"d4da5cd\"},\"offerId\":\"784493\",\"offerGroupId\":\"259084\",\"retailerId\":\"4\",\"customerId\":\"40685361\",\"unlockedAt\":{\"millis\":\"1619044109000\"}}",
+  "Timestamp" : "2021-04-21T22:28:29.956Z",
+  "SignatureVersion" : "1",
+  "Signature" : "FHKwR6kxdOWX4lU3NFtIZx1QBX+InxNgoScrp5Z0YxL5sPPzRaxYH8vg1k8+SZRH+nTpjACSAKpuJik4AcFWnZoE0h4i8Enr8JGBAJ9Cj79ruCDROG4/g8KbgEpo0l7ciwHgx5Rim216TP0i28EjgOO4dd8MkkWtYMfQdvbJe8hZQtSSvrK0A2IxWkrGi5B5CxzgkdvM2Hr3QJfjtf97TXx6wrXIfiFf6k7UHJImJuDgZr5PC7ZZjSofbUSp/oUHyCI9ftopKphZI9afop4v8qyNh983vwIf/HisgHtmBvGvjxpgkAVpBGSPE326WQz9WunDBqEoCAiHVMQtSzJPwQ==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"d1637dbd-caf9-430f-b181-63def946c15c\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-075b8af100dadc57b"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044109946\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139405:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1974",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "93c41a19-d551-5bcb-89f4-42e37c1f1b3f",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "54.239.98.2",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "93c41a19-d551-5bcb-89f4-42e37c1f1b3f",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"e453cdec-1c2f-4317-907b-e11f0894c0d5\"},\"eventAt\":{\"millis\":\"1619044110247\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-075b8af100dadc57b\",\"revision\":\"d4da5cd\"},\"offerId\":\"775161\",\"offerGroupId\":\"255851\",\"retailerId\":\"4\",\"customerId\":\"40689387\",\"unlockedAt\":{\"millis\":\"1619044110000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.257Z",
+  "SignatureVersion" : "1",
+  "Signature" : "dUzPAlq5NWoz1EyFn6a1rz1YElXNbZ+D/t+3GwTqMp6hZgTknWEJ1zkDdgi/AYEopyT3Os6g3HwcyqeCU2ed6N08zpKqLnpQgEi33EE9rNWbpgheHrn/OWe13GMZZkw7G4wTuGrwuUVqUCL3mmEoJMaSdCAbssL7lMoI0tJa9v05blemIhp5ZaHFt26Uutq+reh+GokmjAuuZIl189NkDVcZpd8VhoQCt+eFdstA/0VIwXZWL3Zqu9YdgQrLpueatmoZHQXcUvF+UYq9F1THnDQw31pcDWE8L/lhORBRj+78jBUvewzENPk/5LtNJ4XsdXwHcdczles7+V7gQJ6KZA==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"e453cdec-1c2f-4317-907b-e11f0894c0d5\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-075b8af100dadc57b"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110247\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139434:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1973",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "a70dd720-0374-51ed-b0f0-8fdaaa3a8501",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.54",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "a70dd720-0374-51ed-b0f0-8fdaaa3a8501",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"141fc2b8-6fd7-48fc-8216-5040aab37c29\"},\"eventAt\":{\"millis\":\"1619044110868\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-02f08d997a52bb42b\",\"revision\":\"d4da5cd\"},\"offerId\":\"752234\",\"offerGroupId\":\"253931\",\"retailerId\":\"4\",\"customerId\":\"5634252\",\"unlockedAt\":{\"millis\":\"1619044110000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.879Z",
+  "SignatureVersion" : "1",
+  "Signature" : "Spf34pfDFIt3TWGxY4dfB0bDuuRVFc5TgX1AFiwnVdsVlI+lBe3Miw0ROYkY+gmIV1p76DN00Hx1Tp4IumqQ2wTuwG7XEMHNsOp4osKA6hlrpISEE8mYtI5L0remaGyH4lzM13DGxX4bfIa+4u7mrcD4t1oKiS6jw5BfZqabdX00Is0C0HObBJkIsbDBg4c/q/d/+pccKDMNFC1E+1VjUTpBIbTh/r9n6L/sV4KFMK173aRQvOq6hf7TAn2uHxaarnHNfUbkoGKOowQNRKABfc3kr8v6VvVUusSANltUKQ1SgQzgJB5WW5Wg4MeZHg1TolPYjCMDQ9P8/jUCjJrC8w==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"141fc2b8-6fd7-48fc-8216-5040aab37c29\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-02f08d997a52bb42b"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110868\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139477:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1975",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "7dcc2c6f-cf11-53ef-9ab6-7495665fd35b",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.16",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "7dcc2c6f-cf11-53ef-9ab6-7495665fd35b",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"47c6cebb-f037-4ab7-88fc-1ca9d91deeaf\"},\"eventAt\":{\"millis\":\"1619044110447\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-01fe8dce39e0a73dc\",\"revision\":\"d4da5cd\"},\"offerId\":\"776270\",\"offerGroupId\":\"257805\",\"retailerId\":\"39\",\"customerId\":\"30359896\",\"unlockedAt\":{\"millis\":\"1619044109000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.457Z",
+  "SignatureVersion" : "1",
+  "Signature" : "wHmByszqUKE6hqvBU4GSod3PRiXqLydSIbl2aZyfnfvUXwW68jps5BQ/0SnNToehq7/nvbrAhjdNPaj4EA3rCRZlQUoG9C1Rd1br5miG9w0bs3OpKitAJEL4tYsCuBZhvk8Td+4h+c4+qWhppU/Oeb//5UBg2TZCDYNU9ky/r8lkBCeyNgEVnBv2ygMGNZmLhg0N5DEQS+IreorctAB63agkBSGYOfHQbIFrQvuD6aQmYv8ksXnTxXtM8f82amh6MuGJE1xU60dNEz1gSlQ+TpHanMZgyKvN2U/NTehK1xcz6SrkWbTBysjT3MN7y7tAS28YdkD1NJizZaU66tS0Nw==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"47c6cebb-f037-4ab7-88fc-1ca9d91deeaf\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-01fe8dce39e0a73dc"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110447\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
+1619044139483:
+Header: {
+  "host": "2939bde9ff54.ngrok.io",
+  "user-agent": "Amazon Simple Notification Service Agent",
+  "content-length": "1976",
+  "accept-encoding": "gzip,deflate",
+  "content-type": "text/plain; charset=UTF-8",
+  "x-amz-sns-message-id": "c980b960-3951-54cf-bdb1-e19a901f1ad6",
+  "x-amz-sns-message-type": "Notification",
+  "x-amz-sns-subscription-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "x-amz-sns-topic-arn": "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "x-forwarded-for": "72.21.217.54",
+  "x-forwarded-proto": "https"
+}
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "c980b960-3951-54cf-bdb1-e19a901f1ad6",
+  "TopicArn" : "arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events",
+  "Message" : "{\"eventHeader\":{\"eventUri\":{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"656ed35f-90c3-42b9-806a-1fa34987959b\"},\"eventAt\":{\"millis\":\"1619044110535\"},\"environment\":\"PROD\",\"agent\":\"Ibotta_Monolith\",\"host\":\"web-autoscale-0f5567a580b38d4e2\",\"revision\":\"d4da5cd\"},\"offerId\":\"769796\",\"offerGroupId\":\"257734\",\"retailerId\":\"318\",\"customerId\":\"37756965\",\"unlockedAt\":{\"millis\":\"1619044110000\"}}",
+  "Timestamp" : "2021-04-21T22:28:30.544Z",
+  "SignatureVersion" : "1",
+  "Signature" : "t2SFzF3eOrA6U1hpiWy7QvKfSUapfY1mRdzCpQG+VDGFgTsWAA3HTQ4AwBYavCxeFh7IsJ2JSG1CbD5xWhAiL6/hSTJw61erAUHDnt5scAyv1uv8jMNC3aloJDEzlBMh9QtBNOIzmI7LdHrnw8vE/zfRsIeYOgojPbLTX+11/543W5PSeMIbqkr8W24/nE1Nm5BADn3irQ2Lc3lOqX4jrqSAHuvqrQW2kX9slmAMfeYYAPx51n5BUltZxW73qMovsUOzg7H6E9wzWZXDf+0Pcf9RBSTZ024T6Yo0P/brblEB1mxZ/egv0AwGFPjKqVJYWaLfVgJjw+9rav/u0sXhtw==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:264606497040:offer-unlock-committed-events:09c7dcda-6777-4df4-adca-4570163c3b94",
+  "MessageAttributes" : {
+    "environment" : {"Type":"String","Value":"PROD"},
+    "agent" : {"Type":"String","Value":"Ibotta_Monolith"},
+    "event_uri" : {"Type":"String","Value":"{\"dom\":\"IB_SCH\",\"type\":\"ibotta_pb.rewards.OfferUnlockCommitted\",\"id\":\"656ed35f-90c3-42b9-806a-1fa34987959b\"}"},
+    "host" : {"Type":"String","Value":"web-autoscale-0f5567a580b38d4e2"},
+    "fake" : {"Type":"String","Value":"false"},
+    "event_at" : {"Type":"String","Value":"{\"millis\":\"1619044110535\"}"},
+    "revision" : {"Type":"String","Value":"d4da5cd"}
+  }
+}
