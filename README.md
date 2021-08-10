@@ -1,4 +1,4 @@
-# NROK LISTENER
+# NGROK LISTENER
 This is a very simple [ExpressJS](https://expressjs.com/) boilerplate app that allows us to listen to POST requests with `plain/text` content type. Its main purpose was to allow a quick and easy way to add an HTTP/HTTPS subscription to an SNS topic in AWS.
 
 ## Requirements
