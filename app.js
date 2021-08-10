@@ -13,9 +13,15 @@ app.get('/', (req, res) => {
 })
 
 app.post('/publish', (req, res) => {
-  console.log(Date.now() + ":\nHeader: " + JSON.stringify(req.headers, null, 2) + "\nBody: " + req.body)
+  console.log(Date.now() + '\nPath: ' + req.originalUrl + "\nHeader: " + JSON.stringify(req.headers, null, 2) + "\nBody: " + req.body)
 
   res.send('Received POST /publish\n' + JSON.stringify(req.body, null, 2))
+})
+
+app.post('/*', (req, res) => {
+  console.log(Date.now() + '\nPath: ' + req.originalUrl + "\nHeader: " + JSON.stringify(req.headers, null, 2) + "\nBody: " + req.body)
+
+  res.send('Received "other" POST request \n' + JSON.stringify(req.body, null, 2))
 })
 
 app.listen(port, () => {
